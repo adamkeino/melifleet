@@ -1,0 +1,46 @@
+/* Laptop and computer Screens */
+@media screen and (min-width: 769px){
+    .content3 {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+        background-color: rgba(0,0,0,0.5);
+        background-image: url(../images/background1.jpg);
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-blend-mode: overlay;
+    }
+    .quote-container {
+        width: 70%;
+        height: 50%;
+        color: aqua;
+        border-radius: 20px;
+
+    }
+    .quote {
+        font-family: cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+    .quote-author {
+        text-align: right;
+        padding-right: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .disclaimer {
+        font-size: 15px;
+        margin: 0;
+    }
+}
+/* Phone Screens */
+@media only screen and (max-width: 435px) {
+    
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+
+}

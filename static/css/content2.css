@@ -1,0 +1,121 @@
+/* Laptop and computer Screens */
+@media screen and (min-width: 769px){
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 500px;
+        background-color: lightblue;
+    }
+    .content2-header {
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .c2-header {
+        font-family: garamond;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    .content2-boxes {
+        display: flex;
+        flex-direction: row;
+        height: 450px;
+        justify-content: space-evenly;
+    }
+    .c2-box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 1px;
+        width: 20%;
+        height: 95%;
+        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #1F2937;
+        color: white;
+    }
+    .c2-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+        width: 20%;
+        height: 95%;
+        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #1F2937;
+        color: white;
+    }
+    .c2-box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+        width: 20%;
+        height: 95%;
+        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #1F2937;
+        color: white;
+    }
+    .c2-box4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+        width: 20%;
+        height: 95%;
+        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #1F2937;
+        color: white;
+    }
+    .box-image-container {
+        height: 50%;
+    }
+    .box-content-container {
+        height: 50%;
+    }
+    .box-image {
+        height: 95%;
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .box-content-header {
+        font-family: Times;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 15px;
+        color: aqua;
+    }
+    .box-content-body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+    }
+    .AI {
+        color: aqua;
+        font-weight: normal;
+    }
+}
+/* Phone Screens */
+@media only screen and (max-width: 435px) {
+    
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+
+}

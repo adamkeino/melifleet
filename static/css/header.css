@@ -1,0 +1,110 @@
+/* Laptop and computer Screens */
+@media screen and (min-width: 769px){
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 19%;
+        background-color: #1F2937;
+        align-items: center;
+    }
+    .header-logo {
+        display: flex;
+        width: 14.5%;
+        height: 90%; 
+        align-items: center;  
+    }
+    .ffms-logo {
+        height: 100%;
+        width: 85%;
+        border-style: none;
+        cursor: pointer;
+    }
+    .header-text {
+        flex: 1;
+        color: aqua;
+        font-weight: bold;
+        font-family: garamond;
+        font-size: 30px;
+    }
+    .header-link {
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        color: aqua;
+        padding-right: 25px;
+    }
+    
+}
+/* Phone Screens */
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 10%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 15%;
+        background-color: #1F2937;
+        align-items: center;
+    }
+    .header-logo {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 10%;
+        height: 15%;
+        max-width: 200px;
+        min-width: 180px;
+        align-items: center;  
+    }
+    .ffms-logo {
+        height: 90%;
+        width: 100%;
+        border-style: none;
+        cursor: pointer;
+    }
+    .header-text {
+        display: block;
+        color: aqua;
+        font-weight: bold;
+        font-family: garamond;
+        font-size: 30px;
+    }
+    .header-links {
+        display: inline;
+
+    }
+    .header-link {
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        color: aqua;
+        padding-right: 25px;
+    }
+    .contacts-header {
+        display: none;
+    }
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 19%;
+        background-color: #1F2937;
+        align-items: center;
+    }
+
+}

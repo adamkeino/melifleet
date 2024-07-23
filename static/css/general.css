@@ -1,0 +1,48 @@
+/* Laptops and bigger screens */
+@media screen and (min-width: 769px){
+    body {
+        height: 150%;
+        padding-top: 8%;
+        margin: 0%;
+    }
+    /* to top button styles */
+    #myBtn {
+        display:none; /*Hidden by default*/
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: cyan; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 0; /* Some padding */
+        width:  45px;
+        height: 45px;
+        border-radius: 90px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+    }
+    .top-icon {
+        width: 100%;
+    }
+    #myBtn:hover {
+        background-color: #555;
+    }
+}
+/* Phone Screens */
+@media screen and (max-width: 480px) {
+    body {
+        height: 120%;
+        padding-top: 6%;
+        margin: 0%;
+    }
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+    body {
+        height: 150%;
+        padding-top: 8%;
+        margin: 0%;
+    }
+}

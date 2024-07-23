@@ -1,0 +1,79 @@
+/* Laptop and computer Screens */
+@media screen and (min-width: 769px){
+    .content-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .content1 {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        background-color: rgba(0,0,0,0.6);
+        background-image: url(../images/background.jpg);
+        background-size: 100% 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-blend-mode: overlay;
+        flex-shrink: none;
+    }
+    .system-description {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .system-title {
+        font-family: garamond;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .system-notes {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+    .system-action-call {
+        font-family: 'Roboto', sans-serif;
+        color: aqua;
+        font-weight: normal;
+        font-size: 19px;
+    }
+    .action-call-button {
+        width: 120px;
+        height: 35px;
+        background-color: rgba(45,165,245,0.5);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.4s, box-shadow 0.3s, color 0.3s;
+    }
+    .action-call-button:hover {
+        background-color: rgb(45,165,245);
+        box-shadow: 0px 0px 2px 2px rgba(0,240,240,0.5);
+    }
+    .action-call-button:active {
+        background-color: aqua;
+        color: black;
+    }
+    .welcome-image {
+        height: 250px;
+        width: 400px;
+        border-radius: 5px;
+        cursor: pointer;
+    }    
+}
+/* Phone Screens */
+@media only screen and (max-width: 435px) {
+
+}
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+
+}
